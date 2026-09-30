@@ -1,0 +1,33 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated data and local indexes
+data/interim/*
+data/raw/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+vectorstore/
+*.parquet
+*.feather
+*.h5
+*.hdf5
